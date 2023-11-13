@@ -1,6 +1,7 @@
   import MenuLink from "./MenuLink/MenuLink";
   import styles from './sidebar.module.css'
   import Image from 'next/image'
+  import {MdLogout} from "react-icons/md";
   import { menuItems } from './data';
 const Sidebar = () => {
 
@@ -20,7 +21,6 @@ const Sidebar = () => {
                         <span className={styles.cat}>{cat.title}</span>
                         {cat.list.map((item) => {
                             return (
-
                                 <MenuLink item={item}/>
                             )
                         })}
@@ -28,6 +28,10 @@ const Sidebar = () => {
                 ))
             }
         </ul>
+        <button className={styles.logout}>
+                <MdLogout />
+                Logout
+         </button>
     </div>
   )
 }
