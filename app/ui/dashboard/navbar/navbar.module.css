@@ -38,4 +38,10 @@ text-transform: capitalize;
 .icons {
     display: flex;
     gap: 10px;
+    color: rgb(216, 219, 219);
+}
+
+.icons:hover {
+    cursor: pointer;
+    color: rgb(251, 251, 251);
 }
