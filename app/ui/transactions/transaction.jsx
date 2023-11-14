@@ -8,7 +8,7 @@ const Transaction = () => {
         name: 'Mohamed Nazeem',
         status: 'pending',
         date: '14.02.2023',
-        amount: 12
+        amount: "$12"
 
     },
     {
@@ -16,7 +16,7 @@ const Transaction = () => {
         name: 'Joe Riffle',
         status: 'done',
         date: '1.04.2023',
-        amount: 10
+        amount: "$10"
 
     },
     {
@@ -24,7 +24,7 @@ const Transaction = () => {
         name: 'Ahmed Nawar',
         status: 'pending',
         date: '1.02.2023',
-        amount: 19
+        amount: "$19"
 
     },
     {
@@ -32,7 +32,15 @@ const Transaction = () => {
         name: 'Mohamed Mosaad',
         status: 'cancelled',
         date: '14.11.2023',
-        amount: 121
+        amount: "$121"
+
+    },
+    {
+        img: '/noavatar.png',
+        name: 'Mariam el sabagh',
+        status: 'done',
+        date: '8.09.2022',
+        amount: "$2"
 
     }
 

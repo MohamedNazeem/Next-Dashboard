@@ -18,9 +18,9 @@
     padding: 10px;
 }
 
-.table tr:hover {
+/* .table tr:hover {
     background-color: #2e374a;
-}
+} */
 
 .user {
     display: flex;
@@ -49,5 +49,5 @@
 }
 
 .done {
-    background-color: #afd6ee75;
+    background-color: #04e61e75;
 }
