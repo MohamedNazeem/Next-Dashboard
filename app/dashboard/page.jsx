@@ -8,12 +8,12 @@ const Dashboard = () => {
     <div className={styles.wrapper}>
       <div className={styles.main}>
         <div className={styles.cards}>
-          <Card />
-          <Card />
-          <Card />
+          <Card title='Total Users' number='10,400' percent='12' msg='More than last week' />
+          <Card title='Current Users' number='2,200' percent='10' msg='More than last week' />
+          <Card title='Active Users' number='780' percent='80' msg='Same as last week' />
         </div>
         <Transaction/>
-        <Chart />
+        <Chart />f
       </div>
       <div className={styles.side}>
         <Rightbar />
